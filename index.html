@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Conor McGuire — Portfolio</title>
+  <meta name="description" content="Portfolio of Conor McGuire: projects, experiments and things I've built." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="#top" class="logo">CM<span>.</span></a>
+      <nav>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">◐</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero container">
+      <p class="eyebrow">Hi, I'm</p>
+      <h1>Conor McGuire</h1>
+      <!-- EDIT: your one-line pitch -->
+      <p class="tagline">I build things for the web and write about what I learn along the way.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#projects">See my work</a>
+        <a class="btn" href="#contact">Get in touch</a>
+      </div>
+    </section>
+
+    <!-- PROJECTS (rendered from projects.js) -->
+    <section id="projects" class="section container">
+      <div class="section-head">
+        <h2>Projects</h2>
+        <div id="filters" class="filters" role="toolbar" aria-label="Filter projects by tag"></div>
+      </div>
+      <div id="project-grid" class="grid"></div>
+      <p id="empty-state" class="empty" hidden>No projects yet. New ones are on the way.</p>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section container about">
+      <h2>About</h2>
+      <!-- EDIT: tell people about yourself -->
+      <p>
+        I'm a developer who enjoys turning ideas into working software. This page collects the
+        projects I've worked on, from small experiments to finished apps. I'm always learning
+        something new, so check back to see what I've been up to.
+      </p>
+      <h3>Tools I use</h3>
+      <!-- EDIT: your skills -->
+      <ul class="skills">
+        <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Python</li><li>Git</li>
+      </ul>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section container contact">
+      <h2>Contact</h2>
+      <p>Want to work together or just say hi? Reach out.</p>
+      <!-- EDIT: your links -->
+      <div class="contact-links">
+        <a class="btn btn-primary" href="mailto:conormcguire9305@gmail.com">Email me</a>
+        <a class="btn" href="https://github.com/ConorMcGuire" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn" href="https://www.linkedin.com/in/YOUR-PROFILE" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <p>© <span id="year"></span> Conor McGuire. Built by hand, hosted on GitHub Pages.</p>
+  </footer>
+
+  <script src="projects.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
