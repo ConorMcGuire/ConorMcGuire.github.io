@@ -26,7 +26,7 @@
 
   function card(p) {
     const links = el("div", { class: "card-links" }, [
-      p.demo ? el("a", { href: p.demo, target: "_blank", rel: "noopener", text: "Live ↗" }) : null,
+      p.demo ? el("a", { href: p.demo, target: "_blank", rel: "noopener", text: (p.demoLabel || "View project") + " ↗" }) : null,
       p.repo ? el("a", { href: p.repo, target: "_blank", rel: "noopener", text: "Code ↗" }) : null,
     ]);
 

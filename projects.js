@@ -9,7 +9,8 @@
  *    description  (required) One or two sentences about it
  *    tags         List of tech/topics, e.g. ["Python", "API"]. Used for filtering.
  *    image        Optional. Path to a screenshot, e.g. "images/my-app.png"
- *    demo         Optional. Link to the live site
+ *    demo         Optional. Link to the project's live page (write-up, dashboard, etc.)
+ *    demoLabel    Optional. Text for that link, e.g. "View dashboard". Default: "View project"
  *    repo         Optional. Link to the source code
  *    date         Optional. e.g. "2026-09"
  *    featured     Optional. true highlights the card
@@ -19,22 +20,14 @@
  */
 const PROJECTS = [
   {
-    title: "This Portfolio",
-    description: "My personal portfolio site, built with plain HTML, CSS and JavaScript and hosted on GitHub Pages.",
-    tags: ["HTML", "CSS", "JavaScript"],
+    title: "Bellabeat Case Study",
+    description: "A case study from the Google Data Analytics course on Coursera. I analyzed smart-device fitness data to find how people use wellness trackers, then turned the findings into marketing recommendations for Bellabeat. I cleaned and analyzed the data in SQL and visualized it in Tableau.",
+    tags: ["SQL", "Tableau", "Data Cleaning"],
     image: "",
-    demo: "",
-    repo: "https://github.com/ConorMcGuire/ConorMcGuire.github.io",
-    date: "2026-09",
-    featured: true,
-  },
-  {
-    title: "Example Project",
-    description: "A placeholder showing how a project card looks. Replace it with something you've built, or delete it.",
-    tags: ["Python"],
-    image: "",
-    demo: "",
-    repo: "",
+    demo: "https://conormcguire.github.io/bellabeat-case-study/",
+    demoLabel: "Read the case study",
+    repo: "https://github.com/ConorMcGuire/bellabeat-case-study",
     date: "2026-08",
+    featured: true,
   },
 ];
