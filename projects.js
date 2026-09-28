@@ -21,7 +21,7 @@
 const PROJECTS = [
   {
     title: "Bellabeat Case Study",
-    description: "A case study from the Google Data Analytics course on Coursera. I analyzed smart-device fitness data to find how people use wellness trackers, then turned the findings into marketing recommendations for Bellabeat. I cleaned and analyzed the data in SQL and visualized it in Tableau.",
+    description: "Capstone project for the Google Data Analytics Professional Certificate. I analyzed smart-device fitness data to find how people use wellness trackers, then turned the findings into marketing recommendations for Bellabeat. I cleaned and analyzed the data in SQL and visualized it in Tableau.",
     tags: ["SQL", "Tableau", "Data Cleaning"],
     image: "",
     demo: "https://conormcguire.github.io/bellabeat-case-study/",
