@@ -1,19 +1,34 @@
-# Portfolio
+# Conor McGuire — Data Analytics Portfolio
 
-My personal portfolio, hosted on GitHub Pages. Plain HTML, CSS and JavaScript, with no build step.
+**Live site: [conormcguire.github.io](https://conormcguire.github.io/)**
 
-## Adding a project
+This is the source for my personal portfolio, where I share the data analysis projects I work on. I'm an aspiring data analyst based in Vancouver, with a background in tech support and the Google Data Analytics Professional Certificate.
 
-1. Open `projects.js`.
-2. Copy an existing `{ ... },` block and paste it at the top of the list.
-3. Fill in `title`, `description`, `tags`, and optionally `image`, `demo`, `repo`, `date`, `featured`.
-4. (Optional) Put a screenshot in the `images/` folder and set `image: "images/your-file.png"`. For charts, also add `imageFit: "contain"` so nothing gets cropped.
-5. Commit and push. GitHub Pages redeploys within a minute or two.
+## Featured projects
 
-## Editing the rest
+| Project | Tools | Links |
+| --- | --- | --- |
+| **Bellabeat Case Study**: analyzing smart-device fitness data to guide marketing strategy for a wellness company | SQL (BigQuery), Tableau | [Write-up](https://conormcguire.github.io/bellabeat-case-study/) · [Repository](https://github.com/ConorMcGuire/bellabeat-case-study) |
 
-Everything else lives in `index.html`. Look for the `<!-- EDIT -->` comments (tagline, about, skills, contact links).
+More projects coming soon, with a focus on Python, Power BI and Excel.
 
-## Previewing locally
+## Built with
 
-Open `index.html` in your browser.
+- HTML, CSS and JavaScript, with no frameworks or build step
+- Hosted on GitHub Pages
+- Built with help from Claude (AI)
+
+## How it's organised
+
+| File | Purpose |
+| --- | --- |
+| `index.html` | Page content: intro, certifications, about and contact |
+| `projects.js` | The list of projects; each entry becomes a card on the page |
+| `main.js` | Builds the project cards and tag filters, and handles light/dark mode |
+| `style.css` | Styling |
+| `images/` | Project preview images |
+
+## Contact
+
+- [LinkedIn](https://www.linkedin.com/in/conor-mcguire-a3b44621b/)
+- [Email](mailto:conormcguire9305@gmail.com)
