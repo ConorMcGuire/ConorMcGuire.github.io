@@ -7,7 +7,7 @@ My personal portfolio, hosted on GitHub Pages. Plain HTML, CSS and JavaScript, w
 1. Open `projects.js`.
 2. Copy an existing `{ ... },` block and paste it at the top of the list.
 3. Fill in `title`, `description`, `tags`, and optionally `image`, `demo`, `repo`, `date`, `featured`.
-4. (Optional) Put a screenshot in the `images/` folder and set `image: "images/your-file.png"`.
+4. (Optional) Put a screenshot in the `images/` folder and set `image: "images/your-file.png"`. For charts, also add `imageFit: "contain"` so nothing gets cropped.
 5. Commit and push. GitHub Pages redeploys within a minute or two.
 
 ## Editing the rest

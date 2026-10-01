@@ -31,7 +31,7 @@
     ]);
 
     const media = p.image
-      ? el("div", { class: "card-media" }, [el("img", { src: p.image, alt: `Screenshot of ${p.title}`, loading: "lazy" })])
+      ? el("div", { class: "card-media" + (p.imageFit === "contain" ? " card-media--contain" : "") }, [el("img", { src: p.image, alt: `Screenshot of ${p.title}`, loading: "lazy" })])
       : el("div", { class: "card-media card-media--placeholder", "aria-hidden": "true", text: p.title.charAt(0) });
 
     return el("article", { class: "card" + (p.featured ? " card--featured" : "") }, [

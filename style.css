@@ -98,6 +98,8 @@ img { max-width: 100%; display: block; }
 .card--featured { border-color: color-mix(in srgb, var(--accent) 45%, var(--border)); }
 .card-media { aspect-ratio: 16 / 9; background: var(--accent-soft); overflow: hidden; }
 .card-media img { width: 100%; height: 100%; object-fit: cover; }
+.card-media--contain { background: #fff; padding: 10px; border-bottom: 1px solid var(--border); }
+.card-media--contain img { object-fit: contain; }
 .card-media--placeholder {
   display: grid; place-items: center; font-size: 3rem; font-weight: 700; color: var(--accent);
   background: linear-gradient(135deg, var(--accent-soft), color-mix(in srgb, var(--accent) 18%, var(--surface)));

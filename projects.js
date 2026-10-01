@@ -9,6 +9,8 @@
  *    description  (required) One or two sentences about it
  *    tags         List of tech/topics, e.g. ["Python", "API"]. Used for filtering.
  *    image        Optional. Path to a screenshot, e.g. "images/my-app.png"
+ *    imageFit     Optional. "contain" shows the whole image (good for charts).
+ *                 Leave it out to fill the space and crop the edges (good for photos/screenshots).
  *    demo         Optional. Link to the project's live page (write-up, dashboard, etc.)
  *    demoLabel    Optional. Text for that link, e.g. "View dashboard". Default: "View project"
  *    repo         Optional. Link to the source code
@@ -23,7 +25,8 @@ const PROJECTS = [
     title: "Bellabeat Case Study",
     description: "Capstone project for the Google Data Analytics Professional Certificate. I analyzed smart-device fitness data to find how people use wellness trackers, then turned the findings into marketing recommendations for Bellabeat. I cleaned and analyzed the data in SQL and visualized it in Tableau.",
     tags: ["SQL", "Tableau", "Data Cleaning"],
-    image: "",
+    image: "images/bellabeat.png",
+    imageFit: "contain",
     demo: "https://conormcguire.github.io/bellabeat-case-study/",
     demoLabel: "Read the case study",
     repo: "https://github.com/ConorMcGuire/bellabeat-case-study",
