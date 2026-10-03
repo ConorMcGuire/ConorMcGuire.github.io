@@ -2,7 +2,7 @@
 
 **Live site: [conormcguire.github.io](https://conormcguire.github.io/)**
 
-This is the source for my personal portfolio, where I share the data analysis projects I work on. I'm an aspiring data analyst based in Vancouver, with a background in tech support and the Google Data Analytics Professional Certificate.
+This is the source for my personal portfolio, where I share the data analysis projects I work on. I'm an aspiring data analyst based in Vancouver, with a background in tech support, a BSc (Hons) in Computing in Software Development, and the Google Data Analytics Professional Certificate.
 
 ## Featured projects
 
@@ -22,7 +22,7 @@ More projects coming soon, with a focus on Python, Power BI and Excel.
 
 | File | Purpose |
 | --- | --- |
-| `index.html` | Page content: intro, certifications, about and contact |
+| `index.html` | Page content: intro, education and certifications, about and contact |
 | `projects.js` | The list of projects; each entry becomes a card on the page |
 | `main.js` | Builds the project cards and tag filters, and handles light/dark mode |
 | `style.css` | Styling |
