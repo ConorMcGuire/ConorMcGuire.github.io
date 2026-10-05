@@ -33,4 +33,14 @@ const PROJECTS = [
     date: "2026-08",
     featured: true,
   },
+  {
+    title: "Gender Representation in Marvel Comics",
+    description: "University project for my Data Science module, and my first data analysis project. I cleaned and analyzed data on 16,000+ Marvel characters in Python (pandas) to explore gender and LGBTQ+ representation from 1939 onwards, with visualizations in Excel, Tableau and Looker Studio.",
+    tags: ["Python", "pandas", "Tableau", "Excel"],
+    image: "images/marvel.svg",
+    demo: "https://github.com/ConorMcGuire/Data-Analysis-and-Visualisation-Project/blob/main/Data%20Analysis%20Report%20(1).pdf",
+    demoLabel: "Read the report",
+    repo: "https://github.com/ConorMcGuire/Data-Analysis-and-Visualisation-Project",
+    date: "2023",
+  },
 ];

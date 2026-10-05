@@ -9,6 +9,7 @@ This is the source for my personal portfolio, where I share the data analysis pr
 | Project | Tools | Links |
 | --- | --- | --- |
 | **Bellabeat Case Study**: analyzing smart-device fitness data to guide marketing strategy for a wellness company | SQL (BigQuery), Tableau | [Write-up](https://conormcguire.github.io/bellabeat-case-study/) · [Repository](https://github.com/ConorMcGuire/bellabeat-case-study) |
+| **Gender Representation in Marvel Comics** (university project, 2023): gender and LGBTQ+ representation across 16,000+ characters | Python (pandas), Tableau, Excel | [Report](https://github.com/ConorMcGuire/Data-Analysis-and-Visualisation-Project/blob/main/Data%20Analysis%20Report%20(1).pdf) · [Repository](https://github.com/ConorMcGuire/Data-Analysis-and-Visualisation-Project) |
 
 More projects coming soon, with a focus on Python, Power BI and Excel.
 
