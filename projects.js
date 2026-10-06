@@ -16,19 +16,13 @@
  *    repo         Optional. Link to the source code
  *    date         Optional. e.g. "2026-09"
  *    featured     Optional. true highlights the card
- *    status       Optional. A label like "In progress" for unfinished projects (links can be left out)
+ *    status       Optional. A label like "In progress" for unfinished projects (links can be left out).
+ *                 Put in-progress projects at the END of the list; move them up when finished.
  *
  *  Remember the comma between blocks!
  * ───────────────────────────────────────────────────────────────
  */
 const PROJECTS = [
-  {
-    title: "Early Advantages in Pro League of Legends",
-    description: "Which early-game leads matter most when teams are evenly matched? I'm analyzing professional match data from Oracle's Elixir to find out, with findings aimed at a coach or team analyst deciding where to focus. Built with Python and Power BI.",
-    tags: ["Python", "Power BI"],
-    image: "images/lol.svg",
-    status: "In progress",
-  },
   {
     title: "Bellabeat Case Study",
     description: "Capstone project for the Google Data Analytics Professional Certificate. I analyzed smart-device fitness data to find how people use wellness trackers, then turned the findings into marketing recommendations for Bellabeat. I cleaned and analyzed the data in SQL and visualized it in Tableau.",
@@ -49,5 +43,13 @@ const PROJECTS = [
     demoLabel: "Read the report",
     repo: "https://github.com/ConorMcGuire/Data-Analysis-and-Visualisation-Project",
     date: "2023",
+  },
+  // In-progress projects go at the end of the list
+  {
+    title: "Early Advantages in Pro League of Legends",
+    description: "Which early-game leads matter most when teams are evenly matched? I'm analyzing professional match data from Oracle's Elixir to find out, with findings aimed at a coach or team analyst deciding where to focus. Built with Python and Power BI.",
+    tags: ["Python", "Power BI"],
+    image: "images/lol.svg",
+    status: "In progress",
   },
 ];
