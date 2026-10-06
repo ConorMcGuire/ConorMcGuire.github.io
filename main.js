@@ -38,6 +38,7 @@
       media,
       el("div", { class: "card-body" }, [
         el("div", { class: "card-meta" }, [
+          p.status ? el("span", { class: "badge badge--status", text: p.status }) : null,
           p.featured ? el("span", { class: "badge", text: "Featured" }) : null,
           p.date ? el("span", { class: "date", text: formatDate(p.date) }) : null,
         ]),
